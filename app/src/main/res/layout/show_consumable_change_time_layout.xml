@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/changeConsumableRowLayout"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingLeft="10dp"
+    android:paddingRight="10dp">
+
+    <ImageView
+        android:id="@+id/imgEngineIcon"
+        android:layout_width="45sp"
+        android:layout_height="45sp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="10dp"
+        app:srcCompat="@drawable/engine" />
+
+    <TextView
+        android:id="@+id/txtConsumableName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="3dp"
+        android:layout_marginTop="5dp"
+        android:layout_toEndOf="@+id/imgEngineIcon"
+        android:text="TextView"
+        android:textSize="11sp"
+        app:fontFamily="@font/iransans" />
+
+    <TextView
+        android:id="@+id/txtPreviousKilometerChange"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="3dp"
+        android:layout_marginTop="5dp"
+        android:layout_toEndOf="@+id/txtConsumableName"
+        android:text="TextView"
+        android:textSize="11sp"
+        app:fontFamily="@font/iransans" />
+
+    <TextView
+        android:id="@+id/txtKilometerToChange"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="3dp"
+        android:layout_marginTop="5dp"
+        android:layout_toEndOf="@+id/txtPreviousKilometerChange"
+        android:text="TextView"
+        android:textSize="11sp"
+        app:fontFamily="@font/iransans" />
+
+    <TextView
+        android:id="@+id/txtChangeDate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txtConsumableName"
+        android:layout_marginStart="3dp"
+        android:layout_marginTop="5dp"
+        android:layout_toEndOf="@+id/imgEngineIcon"
+        android:text="TextView"
+        android:textSize="11sp"
+        app:fontFamily="@font/iransans" />
+
+    <TextView
+        android:id="@+id/txtChangingPrice"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txtPreviousKilometerChange"
+        android:layout_marginStart="3dp"
+        android:layout_marginTop="5dp"
+        android:layout_toEndOf="@+id/txtChangeDate"
+        android:text="TextView"
+        android:textSize="11sp"
+        app:fontFamily="@font/iransans" />
+
+    <TextView
+        android:id="@+id/txtDescription"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txtKilometerToChange"
+        android:layout_marginStart="3dp"
+        android:layout_marginTop="5dp"
+        android:layout_toEndOf="@+id/txtChangingPrice"
+        android:text="TextView"
+        android:textSize="11sp"
+        app:fontFamily="@font/iransans" />
+
+</RelativeLayout>

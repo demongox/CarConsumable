@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">CarConsumable</string>
+    <string name="consumable_name">Consumable Name</string>
+    <string name="best_kilometer_to_change">Best Kilometer To Change</string>
+    <string name="add_consumable">Add Consumable</string>
+    <string name="current_kilometer">Current Kilometer</string>
+    <string name="add_change">Add Change</string>
+    <string name="changing_price">Changing Price</string>
+    <string name="description">Description</string>
+</resources>
